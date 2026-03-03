@@ -90,7 +90,7 @@ e o CSS padrão aplica as formatações automaticamente.
 
 ```bash
 git clone https://github.com/ecostadelle/from_word_to_sei.git
-cd from_word_to_sei.git
+cd from_word_to_sei
 ```
 
 ### 3. Executar o conversor
@@ -99,7 +99,7 @@ cd from_word_to_sei.git
 pandoc -f docx+styles -t html \
   --lua-filter=map-styles.lua \
   -o output.html \
-  input.docx
+  Estilos_SEI.docx
 ```
 
 ---
